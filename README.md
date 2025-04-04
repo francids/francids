@@ -1,8 +1,8 @@
 ¡Hola! 👋
 
-Soy Francisco Mesa, un desarrollador de aplicaciones web y móviles. Finalizando mis estudios de Ingeniería de Software en [INTEC](https://www.intec.edu.do/).
+Soy Francisco Mesa 👨‍💻, un desarrollador de aplicaciones web y móviles 📱💻. Finalizando mis estudios de Ingeniería de Software 🎓 en [INTEC](https://www.intec.edu.do/).
 
-Trabajando en proyectos personales:
+Trabajando en proyectos personales 🚀:
 
 - [Anaquel](https://github.com/francids/anaquel): Aplicación móvil para organizar y seguir el progreso de lectura, con funciones de IA.
 - [Productiva Mente](https://github.com/francids/productiva-mente): Aplicación web para la gestión de tareas y notas, con un editor de texto enriquecido.
