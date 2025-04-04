@@ -1,6 +1,6 @@
 ¡Hola! 👋
 
-Desarrollador de software enfocado en crear soluciones intuitivas a problemas reales. Apasionado por el aprendizaje continuo y la mejora constante.
+Soy Francisco Mesa, un desarrollador de aplicaciones web y móviles. Finalizando mis estudios de Ingeniería de Software en [INTEC](https://www.intec.edu.do/).
 
 Trabajando en proyectos personales:
 
