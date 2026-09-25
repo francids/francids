@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  color-scheme: light dark;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.4;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fore: #000000;
+    --back: #ffffff;
+    --subtle: #1f1f1f;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklch, var(--fore) 5%, var(--back) 95%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fore: #ffffff;
+    --back: #151515;
+    --subtle: #e6e6e6;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklch, var(--fore) 20%, var(--back) 80%);
+  }
+}
+
+body {
+  background-color: var(--back);
+  color: var(--fore);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 7rem 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.75rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 27px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1;
+}
+
+img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  vertical-align: middle;
+  user-select: none;
+  pointer-events: none;
+}
+
+span {
+  font-size: 0.875rem;
+  color: var(--subtle);
+  font-family: "Young Serif", serif;
+  opacity: 0.5;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.2rem;
+}
+
+p {
+  color: var(--subtle);
+  font-size: 1rem;
+  margin: 0.2rem 0 0.2rem 0;
+  opacity: 0.875;
+}
+
+div {
+  border-top: 1px solid var(--subtle);
+  opacity: 0.12;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+li {
+  font-family: "Young Serif", serif;
+  font-size: 0.875rem;
+}
+
+li:not(:last-child)::after {
+  content: "/";
+  font-family: "Roboto Slab", serif;
+  opacity: 0.12;
+  color: var(--subtle);
+  margin-left: 1rem;
+}
+
+a {
+  color: var(--fore);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--subtle) 12%, transparent);
+  text-underline-offset: 4px;
+}
